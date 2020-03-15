@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#round {
+  text-align: center;
+  font-size: 4rem;
+  display: none;
+  margin-top: 20px;
+}
+h2 {
+  text-align: center;
+  width: 250px;
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 11px auto 0;
+}
+.ergebnis {
+  display: flex;
+  justify-content: start;
+}
+.wrapper1,
+.wrapper2 {
+  border: 1px solid #fff;
+  color: #fff;
+  height: 200px;
+  width: 400px;
+  border-radius: 5px;
+
+  font-weight: 100;
+}
+.wrapper1 {
+  margin-top: 5%;
+}
+.wrapper2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 400px;
+  margin-top: 30px;
+}
+.spieler {
+  font-weight: 100;
+  font-size: 1rem;
+  margin: 0 -35px;
+  width: 70px;
+  height: 40px;
+  background: red;
+  text-align: center;
+  line-height: 40px;
+}
+h5 {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+a {
+  color: orange;
+  text-transform: lowercase;
+  text-align: center;
+  margin-top: 20%;
+  display: block;
+  letter-spacing: 5px;
+  border: 1px solid orange;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.2s ease-in;
+}
+a:hover {
+  background: orange;
+  color: #000;
+}
+
+#stant {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-top: 60px;
+}
+.icons {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+i {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 100;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  padding: 1.1rem;
+  margin: 40px 13px;
+}
+.fa-hand-scissors {
+  transform: rotateY(180deg);
+}
+.fa-hand-paper {
+  padding-left: 20px;
+  padding-right: 23px;
+}
+
+#stant p {
+  display: inline-block;
+  font-size: 1rem;
+  position: relative;
+  top: -15px;
+  margin-left: 5px;
+  margin-right: 2px;
+  color: red;
+}
+#stant h4 {
+  display: inline;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+#stant h2 {
+  display: inline;
+  font-size: 2rem;
+}
+
+.ergebnis h6 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+p {
+  margin: 15px;
+}
+.wrapper3 {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-left: 80px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper1">
+        <h2>how many rounds?</h2>
+        <div id="wrapper" class="wrapper3">
+          <p>
+            <input
+              type="radio"
+              value="5"
+              name="versuch"
+              onclick="radio()"
+              id="fünf"
+            />
+            <label>5</label>
+          </p>
+          <p>
+            <input
+              type="radio"
+              value="10"
+              name="versuch"
+              onclick="radio()"
+              id="zehn"
+            />
+            <label>10</label>
+          </p>
+          <p>
+            <input
+              type="radio"
+              value="15"
+              name="versuch"
+              onclick="radio()"
+              id="fünfZehn"
+            />
+            <label>15</label>
+          </p>
+          <p>
+            <input
+              type="radio"
+              value="20"
+              name="versuch"
+              onclick="radio()"
+              id="zwanzig"
+            />
+            <label>20</label>
+          </p>
+        </div>
+        <div id="round">
+          <span id="aktuell"></span>/<span id="absolut"></span>
+        </div>
+      </div>
+      <div class="wrapper2">
+        <h3 class="spieler">User</h3>
+        <span id="ergebnis" class="ergebnis">
+          <h6 id="player">0</h6>
+          <p>:</p>
+          <h6 id="computer">0</h6>
+        </span>
+        <h3 class="spieler">Comp</h3>
+      </div>
+      <div id="aussen"><h6 id="stant">Let's play</h6></div>
+      <div class="icons">
+        <i id="rock" class="wahl far fa-hand-rock"></i>
+        <i id="paper" class="wahl far fa-hand-paper"></i>
+        <i id="scissors" class="wahl far fa-hand-scissors"></i>
+      </div>
+      <div class="text">
+        <h5>Make your Move.</h5>
+        <a id="restart" href="#" onclick="restarten()">Restart</a>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/c564be76ad.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
